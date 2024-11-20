@@ -8,10 +8,12 @@ import Login from './components/Login';
 import Verify from './components/Verify';
 import Dashboard from './components/Dashboard';
 import Home from './components/Home';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
+      <Header />  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
