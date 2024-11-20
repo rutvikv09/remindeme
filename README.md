@@ -31,13 +31,11 @@ RemindMe is a fully serverless web application designed to help users efficientl
    cd remindme
 Install dependencies:
 
-    ```bash
       npm install
 Deploy the backend using AWS SAM (or any framework used). Make sure to update the environment variables for AWS services.
 
 Start the frontend server:
 
-    ```bash
         npm start
  #**Screenshots**
 
